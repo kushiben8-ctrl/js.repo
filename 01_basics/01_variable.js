@@ -1,6 +1,3 @@
-
-
-
 // //---second lec- data type ---//
 
 "use strict";
