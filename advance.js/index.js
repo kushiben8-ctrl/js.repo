@@ -25,38 +25,44 @@
 //     parent.childNodes );
 // // console.log(parent.childNodes)
 
-
-
-
-//
-
-// const div = document.createElement('div')
-// console.log(div)
-// div.className = "main"
-// div.id = Math.round(Math.random() * 10 + 1)
-// div.setAttribute("title", "genrate title ")
-// div.style.backgroundColor = "green"
-// div.style.padding = "20px"
-// // const inner = div.innerText ="chai or code"
-// // console.log(inner)
-// const add = document.createTextNode("chai or code ")
-// div.appendChild(add)
-
-// document.body.appendChild(div)
-
-
-// function addLanguage (langName){
-//     const li = document.createElement('li');
-//     li.innerHTML = `%{langName}`
+// function addLanguage(langName) {
+//     const li = document.createElement('li')
+//     li.innerHTML = `${langName}`
 //     document.querySelector('.language').appendChild(li)
-
-//     }
-
+// }
 // addLanguage("python")
+// addLanguage("java")
+
+
+
 // function addOptiLanguage(langName) {
 //     const li = document.createElement('li');
-//     li.appendChild(document.createTextNode(langName));
-//     document.querySelector('.language').appendChild(li);
-// }
-// addOptiLanguage("python")
+//     li.appendChild(document.createTextNode(langName))
+//     document.querySelector('.language').appendChild(li)
 
+// }
+
+// addOptiLanguage("typescript")
+
+
+
+
+// Edit value and remove value 
+// const second = document.querySelector("li:nth-child(2)")
+// const newli = document.createElement('li')
+// newli.textContent = "MoJo"
+
+// second.replaceWith(newli);
+
+
+
+
+//ex 2 
+// const second = document.querySelector("li:first-child")
+
+// second.outerHTML = '<li>TypeScript</li>'
+
+
+//remove 
+// const last = document.querySelector('li:last-child')
+// last.remove("MoJo")
