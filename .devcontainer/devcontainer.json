@@ -1,0 +1,11 @@
+{
+  "name": "Node.js Codespace",
+  "image": "mcr.microsoft.com/devcontainers/node:20-bullseye",
+  "forwardPorts": [3000],
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint"]
+    }
+  }
+}
